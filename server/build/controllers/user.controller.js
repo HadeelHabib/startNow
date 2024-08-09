@@ -258,7 +258,7 @@ exports.getAllUsers = (0, catchAsyncErrors_1.CatchAsyncError)(async (req, res, n
         return next(new ErrorHandler_1.default(error.message, 400));
     }
 });
-// update user role --- only for admin
+// update user role --- 
 exports.updateUserRole = (0, catchAsyncErrors_1.CatchAsyncError)(async (req, res, next) => {
     try {
         const { email, role } = req.body;
