@@ -132,7 +132,7 @@ const Signup: FC<Props> = ({ setRoute }) => {
           <input type="submit" value="Sign Up" className={`${styles.button}`} />
         </div>
         <br />
-        <h5 className="text-center pt-4 font-Poppins dark:text-white text-[14px]">
+        <h5 className="text-center pt-4 font-Poppins text-black dark:text-white text-[14px]">
           Already have an account?{" "}
           <span
             className="text-[#2190ff] pl-1 cursor-pointer"
